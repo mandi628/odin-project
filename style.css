@@ -1,8 +1,16 @@
+* {
+    font-family: "Google Sans", sans-serif;
+}
+
 h1 {
-    font-family:'Courier New', Courier, monospace;
     font-size: 24px;
     text-align:center;
     color:brown;
+}
+
+p {
+    font-size: large;
+    font-style: oblique;
 }
 
 .list {
@@ -64,5 +72,10 @@ h1 {
     display: block;
     margin: auto;
     text-align: center;
-    font-family: Garamond, serif;
+    padding: 4px;
+}
+
+.menu {
+    padding: 4px;
+    margin: 5px;
 }
