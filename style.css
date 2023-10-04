@@ -1,0 +1,68 @@
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-align:center;
+    color:brown;
+}
+
+.list {
+    line-height: 1.5em;
+}
+
+.code {
+    text-indent:5%;
+    background-color: lightgray;
+    text-wrap: balance;
+}
+
+.odd {
+    background-color: #ffc0cb;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+    color: black;
+}
+
+#two {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.adjust-font-size {
+    font-size: 24px;
+}
+
+#four {
+    background-color: #90ee90;
+    font-weight: bold;
+}
+
+.click-me, .no-me {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+.click-me {
+    background-color: black;
+    color: white;
+}
+
+.no-me {
+    background-color: yellow;
+    color: black;
+}
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}
+
+.nav {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: Garamond, serif;
+}
