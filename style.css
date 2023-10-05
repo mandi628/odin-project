@@ -1,5 +1,6 @@
 * {
     font-family: "Google Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -68,11 +69,11 @@ p {
     width: 200px;
 }
 
-.nav {
-    display: block;
+nav {
     margin: auto;
     text-align: center;
     padding: 4px;
+    font-size: 24px;
 }
 
 .menu {
