@@ -68,9 +68,10 @@ nav {
     text-align: center;
     padding: 20px;
     font-size: 24px;
-    display: inline-block;
+    display: flex;
     background-color: aquamarine;
     width: 100%;
+    border:2px solid red;
 }
 
 .one {
@@ -105,6 +106,7 @@ code {
     margin: 8px;
     background-color:azure;
     border: 2px solid darkgray;
+    flex:1;
 }
 
 .menu:hover {
