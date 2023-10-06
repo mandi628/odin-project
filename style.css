@@ -14,6 +14,18 @@ p {
     font-style: oblique;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color:brown;
+}
+
+a:link {
+    color:brown;
+}
+
 .list {
     line-height: 1.5em;
 }
@@ -71,7 +83,7 @@ nav {
     display: flex;
     background-color: aquamarine;
     width: 100%;
-    border:2px solid red;
+    /* border:2px solid red; */ 
     justify-content: center;
 }
 
@@ -111,6 +123,6 @@ code {
 }
 
 .menu:hover {
-    background-color:blue;
-    color: yellow;
+    background-color:aquamarine;
+    color: white;
 }
