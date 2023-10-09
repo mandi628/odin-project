@@ -120,9 +120,20 @@ code {
     background-color:azure;
     border: 2px solid darkgray;
     flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu:hover {
     background-color:aquamarine;
     color: white;
+}
+
+.toc {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
 }
