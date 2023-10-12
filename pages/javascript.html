@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <title>The Odin Project - JavaScript</title>
+    </head>
+    <body>
+        <nav>
+        <a class="menu" href="../index.html">Index</a>
+        <a class="menu" href="resources.html">Resources</a>
+        <a class="menu" href="git-commands.html">Git Commands</a>
+        <a class="menu" href="about-me.html">About Me</a>
+        <a class="menu" href="practice.html">Practice Pages</a>
+        <a class="menu" href="todo.html">To Dos</a>
+        <a class="menu" href="javascript.html">JavaScript Notes</a>
+    </nav>
+    <h1>Javascript Notes</h1>
+    <h2>Basics</h2>
+    <ul>
+        <li><code>let</code> allows you to label a variable that can be changed throughout the course of the script, and probably allows input from the user (assuming I will learn about this in future lessons)</li>
+        <li><code>const</code>labels a constant</li>
+        <li><code>alert(..)</code> produces an announcement box displaying a message</li>
+    </ul>
+    <p>Example:<pre>1 let message = "Hello";
+2 alert(message);
+    </pre></p>
+    <button class="menu" onclick="hello()">Click Me!</button>
+    <script>
+        function hello() {
+            let message = "Hello! :)";
+            alert(message);
+        }
+    </script>
+    <button class="menu" onclick="alert('Good morning!')">Or, Click Me!</button>
+    <script>
+        function morning() {
+            src="../scripts/js-sample.js";
+        }
+    </script>
+    <a class="menu" href="../index.html">Back to Index</a>
+    </body>
+</html>

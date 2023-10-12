@@ -26,6 +26,10 @@ a:visited {
     color:brown;
 }
 
+pre {
+    margin: 0 100px;
+}
+
 a:link {
     color:brown;
 }
