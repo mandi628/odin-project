@@ -12,7 +12,7 @@
         <a class="menu" href="about-me.html">About Me</a>
         <a class="menu" href="practice.html">Practice Pages</a>
         <a class="menu" href="todo.html">To Dos</a>
-        <a class="menu" href="javascript.html">JavaScript Notes</a>
+        <a class="menu" href="course-log.html">My Course Log</a>
     </nav>
     <h1>Javascript Notes</h1>
     <h2>Basics</h2>
@@ -32,11 +32,25 @@
         }
     </script>
     <button class="menu" onclick="alert('Good morning!')">Or, Click Me!</button>
-    <script>
-        function morning() {
-            src="../scripts/js-sample.js";
-        }
-    </script>
+    <ul>
+        <li>As expected, coding with numbers works as expected. The only exception is when using '+'. The addition function only works when combing numbers with numbers or strings with strings. If you try to combine, you will get a string result. This is because '+' is used for both number operations and string operations (concatenate).</li>
+        <li>All other operations will try to convert strings to numbers to complete them.</li>
+    </ul>
+    <p>Open the developer tools and use the console to explore the following script (already embedded in the page).</p>
+<pre>let a = 10;
+let b = 7 * a;
+const max = 57;
+let actual = max - 13;
+let percentage = actual / max;
+let c = percentage;</pre>
+   <script>
+    let a = 10;
+    let b = 7 * a;
+    const max = 57;
+    let actual = max - 13;
+    let percentage = actual / max;
+    let c = percentage;
+   </script>
     <a class="menu" href="../index.html">Back to Index</a>
     </body>
 </html>
