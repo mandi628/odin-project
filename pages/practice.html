@@ -48,6 +48,9 @@
     <li><em>Pseudocode (writing out the program in plain English).</em> This helps you slow down and think through each of the steps of the program.</li>
     <li><em>Divide and conquer.</em> Now that the problem is broken up into smaller ones, you can tackle the simplest ones first. Some of the larger, more complex problems may need further analysis and break down, and that's ok. You may also have additional steps of connecting the subproblems, but you can do that at the end.</li>
 </ul>
+<p>Remember that computers have the same intelligence as rocks. "Code is there to explain the comments to the computer." Use comments as your developing your code to explain what you want to do, then you can write the code to tell the computer how to do what you're trying to do.</p>
+<p>When you're planning your algorithms, remember the following with new variables: Name (what are we going to call it?), type (what type of data does it contain?), initVal (what is the initial value?). Your new variabel algorithm is: Crate a variable called <b>name</b> of type <b>type</b> that starts with the value <b>initVal</b>.</p>
+<p>Output considerations are what message do I want to send the user? Usually this is text. So your algorithm is Output the text <b>message</b>. Inputs can be variables (where the answer from the user will be stored), messages (questions being asked of the user). The algorithm is ask the user <b>message</b> and store the answer in <b>variable</b>.</p>
 <p>If you are stuck, try the following:</p>
 <ul>
     <li>Debug. Go through the solution line by line to see where the mistake is.</li>
@@ -56,13 +59,25 @@
     <li>Research. This is helpful to do even if you've solved the problem. You might find a better solution to the same problem.</li>
     <li>Remember. Try to focus on the small problems, instead of the larger one.</li>
 </ul>
-<h4>Practice, Practice, Practice</h4>
+<h3>Pseudocode Notes</h3>
+<img src="../images/pseudocode_constructs.png">
+<p>At its core pseudocode is the ability to represent six programming constructs (always written in uppercase): SEQUENCE, CASE, WHILE, REPEAT-UNTIL, FOR, and IF-THEN-ELSE. These constructs — also called keywords — are used to describe the control flow of the algorithm.</p>
+<ol>
+    <li>SEQUENCE represents linear tasks sequentially performed one after the other.</li>
+    <li>WHILE a loop with a condition at its beginning.</li>
+    <li>REPEAT-UNTIL a loop with a condition at the bottom.</li>
+    <li>FOR another way of looping.</li>
+    <li>IF-THEN-ELSE a conditional statement changing the flow of the algorithm.</li>
+    <li>CASE the generalization form of IF-THEN-ELSE.</li>
+</ol>
+
+<h3>Practice, Practice, Practice</h3>
 <p>There are lots of ways to practice problem solving, besides just solving code problems - chess puzzles, math problems, sudoku, Monopoly, Go, video-games, cryptokitties, etc.</p>
 <p>Here are some links for some practice problems:</p>
 <ul>
     <li><a href="https://coderbyte.com/">Coderbytes</a> - daily coding challenges</li>
     <li>Sudoku - I have a game on my phone and solve at least one a day. Try <a href="https://www.dailysudoku.com/sudoku/">here</a> and <a href="https://sudoku.com/challenges/daily-sudoku">here</a>.</li>
-<h3>Example 1: Fizz Buzz</h3>
+<h2>Example 1: Fizz Buzz</h2>
 <p>The original problem is stated <a href="https://en.wikipedia.org/wiki/Fizz_buzz">here</a>. Using the steps outlined above, we can write a program for this.</p>
 <h4>Understanding the Problem</h4>
 <p>We want to write a code that will print the numbers 1 through x, where x is a number given by the user, replace numbers divisible evenly by 3 with "Fizz", numbers divisible evenly by 5 with "Buzz", and numbers evenly divisible by both 3 and 5 with "FizzBuzz".</p>
