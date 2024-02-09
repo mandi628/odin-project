@@ -124,13 +124,14 @@ code {
 
 .menu {
     padding: 8px;
-    margin: 8px;
+    margin: 0 auto;
     background-color:azure;
     border: 2px solid darkgray;
     flex:1;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 120px;
 }
 
 .menu:hover {
@@ -149,4 +150,17 @@ code {
 .container {
     padding-left: 3rem;
     padding-right: 3rem;
+}
+
+.month {
+    padding: 8px;
+    margin: 0 auto;
+    background-color:azure;
+    border: 2px solid darkgray;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    font-weight: bold;
 }
